@@ -25,6 +25,7 @@ Shows real-time attack stats, health status and kill notifications during huntin
 ---
 
 ## 中文
+中文去下release里有个压缩包，更全一点。
 漫漫长夜狩猎播报模组，狩猎时实时展示伤害、血量与击杀信息
 
 ### 功能
