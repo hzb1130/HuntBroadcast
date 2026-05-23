@@ -76,7 +76,7 @@ internal static class BaseAi_ApplyDamage_Patch
 
         if (Settings.options.ShowBleedTime && bleedOutMintues > 0 && currentHealth > 0)
         {
-            damageText += $" Bleed {bleedOutMintues:F0}min";
+            damageText += $" Bleed {__instance.GetBleedingOutMinutesRemaining():F0}min";
         }
 
         Color color = Settings.options.GetColor(Settings.options.DamageTextColor);
